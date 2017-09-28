@@ -1,9 +1,48 @@
 body {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 .app {
   margin-top: 20px;
   margin-bottom: 20px;
+  height: 100vh;
+  .channels {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
 }
+.main-app{
+  display: flex;
+}
+.message_list {
+  width: 50vw;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.message_info {
+  display: flex;
+  h3 {
+    color: darkblue;
+  }
+  p {
+
+  }
+}
+.list-channels{
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-size: 14px;
+}
+.selected {
+  font-weight: bold;
+  font-size: 18px;
+}
+
